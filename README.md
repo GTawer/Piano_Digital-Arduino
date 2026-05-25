@@ -56,5 +56,5 @@ O funcionamento do piano eletrônico se baseia na varredura de sinais digitais e
 
 
 <p align="left">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3N5bXBoZXoxNTRidmxtOHF0ZW8yYXphcjB4Mzg2bXExMGZ5aG05diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9372Cfs94wKllXvThY/giphy.gif" width="220" height="auto" alt="Cat playing piano animation" />
+  <img src="https://media1.tenor.com/m/mQKmTouXC-kAAAAd/knives-chau-knives.gif" width="220" height="auto"/>
 </p>
