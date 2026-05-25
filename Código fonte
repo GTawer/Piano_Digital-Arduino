@@ -1,0 +1,73 @@
+// C++
+// Autor: Gabriel A. Torres
+// Piano de 12 notas (Tons e semitons)
+
+// Tons
+int DO  = 2;
+int RE  = 3;
+int MI  = 4;
+int FA  = 5;
+int SOL = 6;
+int LA  = 7;
+int SI  = 8;
+
+// Semitons
+int DO2  = 9;
+int RE2  = 10;
+int FA2  = 11;
+int SOL2 = 12;
+int LA2  = 1; 
+
+// Buzzer
+int Buzzer = 13;
+
+void setup()
+{
+  pinMode(DO, INPUT);
+  pinMode(RE, INPUT);
+  pinMode(MI, INPUT);
+  pinMode(FA, INPUT);
+  pinMode(SOL, INPUT);
+  pinMode(LA, INPUT);
+  pinMode(SI, INPUT);
+  
+  pinMode(DO2, INPUT);
+  pinMode(RE2, INPUT);
+  pinMode(FA2, INPUT);
+  pinMode(SOL2, INPUT);
+  pinMode(LA2, INPUT); 
+  
+  pinMode(Buzzer, OUTPUT);
+}
+
+void loop()
+{
+  int bot1  = digitalRead(DO);
+  int bot2  = digitalRead(RE);
+  int bot3  = digitalRead(MI);
+  int bot4  = digitalRead(FA);
+  int bot5  = digitalRead(SOL);
+  int bot6  = digitalRead(LA);
+  int bot7  = digitalRead(SI);
+  int bot8  = digitalRead(DO2);
+  int bot9  = digitalRead(RE2);
+  int bot10 = digitalRead(FA2);
+  int bot11 = digitalRead(SOL2);
+  int bot12 = digitalRead(LA2);
+    
+  if (bot1 == 1) { tone(Buzzer, 264, 100); }
+  if (bot2 == 1) { tone(Buzzer, 300, 100); }
+  if (bot3 == 1) { tone(Buzzer, 330, 100); }
+  if (bot4 == 1) { tone(Buzzer, 352, 100); }
+  if (bot5 == 1) { tone(Buzzer, 396, 100); }
+  if (bot6 == 1) { tone(Buzzer, 440, 100); }
+  if (bot7 == 1) { tone(Buzzer, 495, 100); } 
+  
+  if (bot8 == 1)  { tone(Buzzer, 277, 100); } 
+  if (bot9 == 1)  { tone(Buzzer, 311, 100); }
+  if (bot10 == 1) { tone(Buzzer, 370, 100); }
+  if (bot11 == 1) { tone(Buzzer, 415, 100); }
+  if (bot12 == 1) { tone(Buzzer, 466, 100); }
+  
+  delay(10);
+}
